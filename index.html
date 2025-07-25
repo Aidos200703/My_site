@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="img/icon_for_title.png">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nathco/Gilroy@1.1/webfonts/gilroy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <a href="#about_me">
+                Про Меня
+            </a>
+            <a href="#interesing">
+                Mой Интересы
+            </a>
+            <a href="#my_quote">
+                Моя Цитата
+            </a>
+        </div>
+    </header>
+
+    <div class="about_me" id="about_me">
+        <div class="container">
+            <div class="left_content" data-aos="fade-right">
+                <h1 class="name">Айдос <br>Оналбаев</h1>
+                <div class="information_about_me">
+
+                    <p>👋 Привет! Меня зовут Айдос, мне 18 лет. Я учусь на 2 курсе в Нархоз Университете по направлению
+                        «Информационные технологии».</p>
+                    <br>
+                    <p>💻 Мне интересна IT-сфера, особенно программирование и веб-разработка. В свободное время стараюсь
+                        учиться новому, пробую писать небольшие проекты и расширяю знания в этой области.</p>
+
+                    <br>
+                    <p>🎯 В будущем хочу стать хорошим специалистом и работать над интересными IT-проектами.</p>
+                </div>
+            </div>
+            <div class="right_content" data-aos="fade-left">
+
+                <img class="btn_left" onclick="prevSlide()" src="img/btn_left.png" alt="">
+                <div class="img_content">
+                    <div class="bg_fone_for_foto">
+                    </div>
+                    <img class="my_foto" id="slide_img" src="img/own_foto.jpg" alt="">
+                </div>
+
+
+
+                <img onclick="nextSlide()" class="btn_right" src="img/btn_right.png" alt="">
+
+
+            </div>
+        </div>
+    </div>
+
+    <section id="interesing" class="interesing">
+        <h1 class="title_interest">Интересы</h1>
+            <div class="cards">
+
+                <div class="first_section_card">
+                    <div class="card">
+                        <div class="content_card">
+                            <h1 class="title_card">Backend И Frontend Разработка</h1>
+                            <div class="why_i_love_it">
+                                Мне нравится создавать что-то полезное своими руками. Frontend-разработка даёт возможность
+                                видеть результат сразу — красивый и удобный интерфейс для пользователей. А backend позволяет
+                                работать с логикой, данными и «мозгом» приложения.
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="card">
+                        <div class="content_card">
+                            <h1 class="title_card">Английский Язык</h1>
+                            <div class="why_i_love_it">
+                                Я хочу свободно понимать технические тексты, общаться с людьми из разных стран и чувствовать
+                                себя уверенно в международной среде. Знание английского помогает мне развиваться в IT-сфере
+                                и открывает больше дверей в будущем.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="second_section_card">
+<div class="card">
+                    <div class="content_card">
+                        <h1 class="title_card">Волейбол </h1>
+                        <div class="why_i_love_it">
+                            Игра помогает отвлечься от учёбы, зарядиться энергией и оставаться активным. Это мой способ отдыхать с пользой и получать удовольствие.
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="content_card">
+                        <h1 class="title_card">Проводить Время С Друзьями </h1>
+                        <div class="why_i_love_it">
+                            Игра помогает отвлечься от учёбы, зарядиться энергией и оставаться активным. Это мой способ отдыхать с пользой и получать удовольствие.
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                
+            </div>
+    </section>
+
+    <div class="my_quote" id="my_quote">
+        <div class="bg_my_quote">
+
+            
+
+            <div class="quote_content">
+                <h1 class="title_quote">
+                    Моя цитата
+                </h1>
+                
+           
+                <p>«Учись каждый день — и однажды ты станешь тем, кем мечтаешь быть.»</p>
+        
+                <p>«Не бойся ошибок — бойся бездействия.»</p>
+
+                <p>«Щепотка предусмотрительности лучше мешка сожалений.»</p>
+
+                <p>«Чему бы ты ни училься, ты учешься для себя.»</p>
+            </div>
+            
+        </div>
+        
+
+        </div>
+    </div>
+
+    <div class="my_social">
+        <div class="social_info">
+            <div class="my_social_menu">
+                <a href="#about_me">
+                    Про Меня
+                </a>
+                <a href="#interesing">
+                    Mой Интересы
+                </a>
+                <a href="#my_quote">
+                    Моя Цитата
+                </a>
+            </div>
+
+            <div class="link_to_social">
+
+                <div class="to_instagram">
+                    <p>Моя страница в Instagram</p>
+                    <a href="https://www.instagram.com/a1dos_its?igsh=cWZnMjJqYzYzcWJ4" target="_blank"><img class="instagram" src="img/instagram.png" alt=""></a>
+                </div>
+                
+                <div class="to_telegram">
+                    <p>Мой профиль в Telegram</p>
+                    <a href="https://t.me/Aidos200703" target="_blank"><img class="telegram" src="img/telegram.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+            
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
